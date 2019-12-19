@@ -1,0 +1,104 @@
+@charset "utf-8";
+body{
+    margin: 0;
+    font-family: '나눔 고딕', NanumGothic, '돋움', Dotum, sans-serif;
+}
+header{
+    min-width:1080px;
+    height:120px;
+    background-color: #000;
+}
+.header_title{
+    font-size: 40px;
+    width:1000px;
+    margin:0 auto;
+    color:#fff;
+    line-height: 45px;
+    padding:40px;
+}
+.width_parent{
+    width:1000px;
+    margin: 0 auto;
+    padding: 0 40px;
+    margin-top:40px;
+}
+.clickbox{
+    height:31px;
+    width:320px;
+    display:inline-block;
+    border: 1px solid #d1d1d1;
+    font-size:16px;
+    text-align: center;
+    line-height: 20px;
+    color:#000;
+}
+.clickbox_table{
+    margin-right: 10px;
+}
+.clickbox_form{
+    margin-right: 10px;
+}
+.clickbox:hover{
+    border:1px solid #454545;
+    font-weight: bold;
+}
+.clickbox a{
+    display:block;
+    width:100%;
+    line-height: 33px;
+    text-decoration: none;
+    color:#000;
+}
+.component{
+    border-bottom: 1px solid #454545;
+    font-size:20px;
+    color:#000;
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-top:50px;
+}
+.contents_parent{
+    margin-top:30px;
+    border:1px solid #d1d1d1;
+}
+.contents_parent h3{
+    color: #333;
+    margin: 0;
+    font-size:16px;
+    padding-top:13px;
+    font-family: '나눔 고딕', NanumGothic, '돋움', Dotum, sans-serif;
+    line-height: 23px;
+}
+.contents_title{
+    height:46px;
+    border-bottom:1px solid #d1d1d1;
+    background-color: #f7f7f7;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.contents_detail{
+  margin:0;
+  font-family: '나눔 고딕', NanumGothic, '돋움', Dotum, sans-serif;
+  padding: 30px 30px;
+  font-size:12px;
+  color:#000;
+}
+.list_bottom_line{
+    margin-bottom: 40px;
+}
+footer{
+    min-width:1080px;
+    border-top: 1px solid #d1d1d1;
+    text-align: center;
+}
+address{
+    font-style: normal;
+    margin-top:40px;
+    font-size: 12px;
+    color:#999;
+}
+.copyright{
+    padding-bottom: 40px;
+    font-size: 12px;
+    color:#000;
+}
